@@ -63,10 +63,9 @@ Rails.application.configure do
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
-  config.hosts << "d531037922a641fb9ebfc249fa1e89bf.vfs.cloud9.ap-northeast-1.amazonaws.com"
   # Annotate rendered view with file names.
+  config.hosts << "d531037922a641fb9ebfc249fa1e89bf.vfs.cloud9.ap-northeast-1.amazonaws.com"
   # config.action_view.annotate_rendered_view_with_filenames = true
-
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
